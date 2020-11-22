@@ -6,6 +6,7 @@ describe "We can create complex, nested Hashes by implementing four methods:" do
     describe "returns a hash with" do
       it "one key" do
         expect(base_hash.keys.count).to(eq(1), "Make sure you have at least one key defined in the monopoly hash")
+        
       end
     end
 
